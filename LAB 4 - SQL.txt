@@ -1,0 +1,42 @@
+Lab 4 
+
+SQL SERVER:
+
+Criar SCHEMA
+
+CREATE SCHEMA [SAPORI_LAB4]
+
+
+Criando tablela STAGE
+
+CREATE TABLE [SAPORI_LAB4].[SAPORI.EVENTOS](description VARCHAR(MAX), 
+duration VARCHAR(MAX), 
+endsAt VARCHAR(MAX), 
+frequency VARCHAR(MAX),
+price VARCHAR(MAX), 
+spaceId VARCHAR(MAX), 
+startsAt VARCHAR(MAX), 
+startsOn VARCHAR(MAX), 
+until VARCHAR(MAX), 
+eventId VARCHAR(MAX),
+classificacaoEtaria VARCHAR(MAX),
+ID_EVENTOS VARCHAR(MAX), 
+NOME_DOS_EVENTOS VARCHAR(MAX), 
+SHORT_DESCRIPTION VARCHAR(MAX));
+
+
+CREATE TABLE [SAPORI_LAB4].[SAPORI.MUSEUS](En_Estado VARCHAR(MAX),
+En_Municipio VARCHAR(MAX),
+En_Nome_Logradouro VARCHAR(MAX),
+esfera VARCHAR(MAX),
+id VARCHAR(MAX),
+name VARCHAR(MAX),
+shortDescription VARCHAR(MAX), 
+telefonePublico VARCHAR(MAX),
+latitude FLOAT, 
+longitude FLOAT);
+
+
+
+
+
